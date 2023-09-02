@@ -1,9 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <meta-data android:name="com.google.android.geo.API_KEY"
-               android:value="AIzaSyClJwR6AkJGy1fSdr2_V8CmL9QFT8Z8D2A"/>
     <application
-        android:label="proyecto"
+        android:label="google_map_tracker"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
@@ -32,5 +29,7 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyClJwR6AkJGy1fSdr2_V8CmL9QFT8Z8D2A"/>
     </application>
 </manifest>

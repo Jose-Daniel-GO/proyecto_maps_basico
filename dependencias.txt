@@ -1,8 +1,0 @@
-google_maps_flutter
-
-
-comando limpiar:flutter clean
-comando installar dependiencias en 
-
-Windows:flutter pub get
-Ios: pod install
